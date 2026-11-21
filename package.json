@@ -1,0 +1,25 @@
+{
+  "name": "dramafork-workspace",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:server": "node server/index.mjs",
+    "dev:client": "vite --port 5173 --host 127.0.0.1",
+    "dev": "node server/index.mjs & vite --port 5173 --host 127.0.0.1",
+    "start": "node server/index.mjs",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 4173 --host 127.0.0.1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

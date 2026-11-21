@@ -1,0 +1,33 @@
+{
+  "account": {
+    "signedIn": true,
+    "name": "Yino",
+    "email": "creator@dramafork.local",
+    "credits": 25
+  },
+  "discussions": [
+    {
+      "id": "disc-mwq1ntd9-amym",
+      "kind": "film",
+      "kindSelected": false,
+      "kindLocked": false,
+      "createdAt": 1795243556205,
+      "updatedAt": 1795243556205,
+      "messages": [],
+      "brief": {
+        "title": "",
+        "summary": "",
+        "coreExperience": "",
+        "tone": "",
+        "audience": "",
+        "keyElements": [],
+        "details": {},
+        "authoring": {},
+        "suggestedFields": []
+      },
+      "suggestedReplies": [],
+      "studioNodes": [],
+      "studioCreated": false
+    }
+  ]
+}
